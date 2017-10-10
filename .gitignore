@@ -1,0 +1,8 @@
+/_book
+*.bak
+*.swp
+*~
+.DS_Store
+.svn/
+Thumbs.db
+~*
