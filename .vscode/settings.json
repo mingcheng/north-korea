@@ -1,0 +1,16 @@
+{
+  "files.autoSave": "onFocusChange",
+  "workbench.colorTheme": "Solarized Light",
+  "editor.fontFamily": "PingFang SC",
+  "editor.fontSize": 16,
+  "window.nativeFullScreen": true,
+  "zenMode.fullScreen": true,
+  "[markdown]": {
+      "editor.fontSize": 20,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.lineNumbers": "off",
+    "editor.fontFamily": "STFangsong,Fangsong",
+    "editor.selectionHighlight": false,
+    "editor.minimap.enabled": false
+  }
+}
