@@ -1,0 +1,27 @@
+<article class="post bg-white">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ if .Params.weight }}
+        <span class="post-pinned">
+          {{ partial "svg/pinned.svg" }}
+        </span>
+      {{ end }}
+      <a class="post-link" href="{{ .URL }}">{{ .Title }}</a>
+    </h1>
+  </header>
+  <!-- Content -->
+  <div class="post-content">
+    {{ if .Site.Params.homeFullContent }}
+    <div class="post-summary">
+      {{ .Content }}
+    </div>
+    {{ else }}
+    <div class="post-summary">
+      {{ .Summary }}
+    </div>
+    <div class="read-more">
+      <a href="{{ .URL }}" class="read-more-link">{{ i18n "readmore" }}</a>
+    </div>
+    {{ end }}
+  </div>
+</article>

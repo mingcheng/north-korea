@@ -5,6 +5,7 @@
   "editor.fontSize": 16,
   "window.nativeFullScreen": true,
   "zenMode.fullScreen": true,
+  "terminal.integrated.fontFamily": "Iosevka",
   "[markdown]": {
       "editor.fontSize": 20,
     "editor.wordWrap": "wordWrapColumn",
