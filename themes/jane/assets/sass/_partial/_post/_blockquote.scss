@@ -9,7 +9,7 @@ blockquote {
   border-left: 4px solid #999;
   position: relative;
   line-height: 1.6;
-  font-family: Open Sans;
+  font-size: .9em;
 
   @include min-screen() {
     padding: 0.2em 2em 0.2em 3em;

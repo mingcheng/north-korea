@@ -34,7 +34,7 @@
 
   .collection-title {
     font-family: $global-serif-font-family;
-  
+
     .archive-year {
       margin: 2em 0 0;
       font-weight: 400;
@@ -58,9 +58,11 @@
     }
 
     .archive-post-title {
+      font-size: 1.2em;
+      font-family: "STFangsong", "Fangsong", $global-serif-font-family;
       display: table-cell;
       vertical-align: middle;
-      
+
       .archive-post-link {
         color: $theme-color;
       }
@@ -87,13 +89,13 @@
 
   .more-post {
     text-align: right;
-    
+
     .more-post-link {
       margin-top: 1em;
       color: $theme-color;
       font-size: 1.1em;
       font-family: $global-serif-font-family;
-    
+
       &:hover {
         border-bottom: $post-readMore-border-bottom;
       }

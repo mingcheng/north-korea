@@ -16,15 +16,6 @@
     {{- $thisYear := $element.Date.Format "2006" }}
     {{- $lastElement := $index | add -1 | index $paginator.Pages }}
 
-    <!--
-    {{ if or (eq $index 0) ( ne ($lastElement.Date.Format "2006") $thisYear ) }}
-      <div class="collection-title">
-        <h2 class="archive-year">{{ $thisYear }}</h2>
-      </div>
-    {{- end }}
-    -->
-
-
     <div class="archive-post">
       <!--
       <time datetime="{{ .Date.Format "2006-01-02" }}" class="archive-post-time">
