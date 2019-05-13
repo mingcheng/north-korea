@@ -8,15 +8,15 @@
 
   @for $i from 1 through 6 {
     h#{$i} {
-   font-weight: $post-title-font-weight;
-          color: $theme-color;
+      font-weight: $post-title-font-weight;
+      color: $theme-color;
       font-family: "STFangsong", "Fangsong", $global-serif-font-family;
     }
   }
 
   p {
     text-indent: 1em;
-      font-size: 1.2em;
+    font-size: 1.2em;
   }
 
   // p:first-child {
