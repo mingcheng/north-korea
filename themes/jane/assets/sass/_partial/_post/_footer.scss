@@ -31,7 +31,7 @@
     .next {
       font-weight: 600;
       font-size: $post-nav-font-size;
-      font-family: $global-serif-font-family;
+      font-family: "STFangsong", "Fangsong", $global-serif-font-family;
       transition-property: transform;
       transition-timing-function: ease-out;
       transition-duration: 0.3s;
@@ -42,7 +42,7 @@
 
       &:hover {
         color: $theme-color;
-        transform: translateX(-4px); 
+        transform: translateX(-4px);
       }
     }
 
@@ -51,7 +51,7 @@
 
       &:hover {
         color: $theme-color;
-        transform: translateX(4px); 
+        transform: translateX(4px);
       }
     }
 
