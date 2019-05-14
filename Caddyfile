@@ -1,0 +1,9 @@
+/north-korea {
+    gzip
+    index index.html
+    root ./public
+
+    timeouts {
+        read  2s
+    }
+}
