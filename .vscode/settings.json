@@ -1,8 +1,7 @@
 {
   "files.autoSave": "onFocusChange",
   "workbench.colorTheme": "Solarized Light",
-  "editor.fontFamily": "PingFang SC",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "window.nativeFullScreen": true,
   "zenMode.fullScreen": true,
   "terminal.integrated.fontFamily": "Iosevka",
