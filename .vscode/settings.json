@@ -1,16 +1,16 @@
 {
-  "files.autoSave": "onFocusChange",
-  "workbench.colorTheme": "Solarized Light",
-  "editor.fontSize": 14,
-  "window.nativeFullScreen": true,
-  "zenMode.fullScreen": true,
-  "terminal.integrated.fontFamily": "Iosevka",
-  "[markdown]": {
-      "editor.fontSize": 20,
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.lineNumbers": "off",
-    "editor.fontFamily": "STFangsong,Fangsong",
-    "editor.selectionHighlight": false,
-    "editor.minimap.enabled": false
-  }
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Solarized Light",
+    "editor.fontSize": 14,
+    "window.nativeFullScreen": true,
+    "zenMode.fullScreen": true,
+    "terminal.integrated.fontFamily": "Sarasa Mono SC",
+    "[markdown]": {
+        "editor.fontSize": 20,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.lineNumbers": "off",
+        "editor.fontFamily": "STFangsong,Fangsong",
+        "editor.selectionHighlight": false,
+        "editor.minimap.enabled": false
+    }
 }
