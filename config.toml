@@ -8,61 +8,61 @@ enableRobotsTXT = true
 enableEmoji = false
 theme = "jane"
 
-hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+hasCJKLanguage = true # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 1          # Number of articles displayed on the homepage  # 首页每页显示的文章数
-copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
+copyright = ""        # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [permalinks]
-  posts = ":filename"
+posts = ":filename"
 
 # language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "en"           # Default language to use
+defaultContentLanguage = "en" # Default language to use
 [languages.en]
-  languageCode = "en"
+languageCode = "en"
 
-[author]                  # essential                     # 必需
-  name = "Ming Cheng"
+[author] # essential                     # 必需
+name = "mingcheng<mingcheng@outlook.com>"
 
-[sitemap]                 # essential                     # 必需
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
+[sitemap] # essential                     # 必需
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
 
-[[menu.main]]             # config your menu              # 配置目录
-  name = "Intro"
-  weight = 10
-  identifier = "home"
-  url = "/"
-
-[[menu.main]]
-  name = "Sections"
-  weight = 20
-  identifier = "archives"
-  url = "/post/"
+[[menu.main]] # config your menu              # 配置目录
+name = "Intro"
+weight = 20
+identifier = "home"
+url = "/"
 
 [[menu.main]]
-  name = "Gracecode"
-  url = "https://www.gracecode.com/"
+name = "Sections"
+weight = 20
+identifier = "archives"
+url = "/post/"
+
+[[menu.main]]
+name = "Gracecode"
+url = "https://www.gracecode.com/"
 
 [params]
-  since = "2016"
-  homeFullContent = true
-  rssFullContent = true
+since = "2016"
+homeFullContent = true
+rssFullContent = true
 
-  # site info (optional)
-  logoTitle = "朝鲜行"
-  keywords = ["朝鲜行", "朝鲜","旅行游记", "游记"]
-  description = "一个普通人眼中的朝鲜，记录了在朝鲜的见闻"
+# site info (optional)
+logoTitle = "朝鲜行"
+keywords = ["朝鲜行", "朝鲜", "旅行游记", "游记"]
+description = "一个普通人眼中的朝鲜，记录了在朝鲜的见闻"
 
-  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
+# The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+dateFormatToUse = "2006-01-02"
 
-  # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
-  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
-  toc = false
-  photoswipe = false
+# 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
+# Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
+toc = false
+photoswipe = false
 
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
+# Link custom CSS and JS assets
+#   (relative to /static/css and /static/js respectively)
+customCSS = [] # if ['custom.css'], load '/static/css/custom.css' file
+customJS = []  # if ['custom.js'], load '/static/js/custom.js' file

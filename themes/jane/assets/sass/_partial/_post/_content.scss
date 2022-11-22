@@ -4,13 +4,12 @@
 
 .post-content {
   word-wrap: break-word;
-  font-family: "STFangsong", "Fangsong", $global-serif-font-family;
+  font-family: "Huiwen-mincho", "STFangsong", "Fangsong", $global-serif-font-family;
 
   @for $i from 1 through 6 {
     h#{$i} {
       font-weight: $post-title-font-weight;
       color: $theme-color;
-      font-family: "STFangsong", "Fangsong", $global-serif-font-family;
     }
   }
 

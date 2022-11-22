@@ -8,7 +8,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: $global-font-family;
+  font-family: Huiwen-mincho,$global-font-family;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,12 +27,12 @@ body {
 
 ::selection {
   background: $theme-color;
-  color: #fff; 
+  color: #fff;
 }
 
 // ::-webkit-scrollbar {
 //   width: 8px;
-//   height: 6px; 
+//   height: 6px;
 // }
 
 // ::-webkit-scrollbar-thumb {

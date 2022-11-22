@@ -6,7 +6,7 @@
           {{ partial "svg/pinned.svg" }}
         </span>
       {{ end }}
-      <a class="post-link" href="{{ .URL }}">{{ .Title }}</a>
+      <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
     </h1>
   </header>
   <!-- Content -->
@@ -20,7 +20,7 @@
       {{ .Summary }}
     </div>
     <div class="read-more">
-      <a href="{{ .URL }}" class="read-more-link">{{ i18n "readmore" }}</a>
+      <a href="{{ .Permalink }}" class="read-more-link">{{ i18n "readmore" }}</a>
     </div>
     {{ end }}
   </div>

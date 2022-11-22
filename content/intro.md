@@ -35,6 +35,4 @@ slug: "/"
 
 （于 2016 年 11 月）
 
-
-<center style="font-size:1.5em;">[～ 开始阅读 ～](/north-korea/post/00/)</center>
-
+[～ 开始阅读 ～](/north-korea/post/00/)
